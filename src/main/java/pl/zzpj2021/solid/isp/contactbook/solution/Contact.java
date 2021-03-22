@@ -1,11 +1,11 @@
-package pl.zzpj2021.solid.isp.contactbook.violation;
+package pl.zzpj2021.solid.isp.contactbook.solution;
 
 class Contact {
 	public String name;
 	public String address;
 	public String emailAddress;
 	public String telephone;
-	
+
 	public Contact(String name, String address, String emailAddress, String telephone) {
 		super();
 		this.name = name;
@@ -38,9 +38,4 @@ class Contact {
 	public void setTelephone(String telephone) {
 		this.telephone = telephone;
 	}
-	
-	
 }
-
-
-
